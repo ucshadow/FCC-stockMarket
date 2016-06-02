@@ -1,7 +1,6 @@
-/*import { VoteData } from '../imports/api/voteData.js'
+import { StockData } from '../imports/api/stockData.js'
 
 
-Meteor.publish('voteData', function votePublish() {
-  return VoteData.find();
+Meteor.publish('stockData', function dataPublish() {
+  return StockData.find();
 });
-  */
