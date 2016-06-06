@@ -1,4 +1,65 @@
-.main-svg {
-  background-color: #354344;
-
+body {
+  background: #181818;
 }
+
+.holder {
+  position: absolute;
+  top: 50px;
+  width: 80%;
+  left: 10%;
+}
+
+#container {
+  position: relative;
+}
+
+.all-tiles {
+  position: relative;
+}
+
+.single-tile {
+  position: relative;
+  height: 7em;
+  width: 20em;
+  border: 5px solid #002F2F;
+  float: left;
+  margin-left: 1em;
+  margin-top: 1em;
+  padding: 1em;
+  background: #232323;
+  color: #685c6e;
+  font-weight: bold;
+}
+
+.x-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border: none;
+  background: none;
+  font-weight: bold;
+  color: red;
+}
+
+.add-field {
+  margin-left: 1em;
+}
+
+.fetching-data {
+  background: none;
+  margin-left: 2em;
+  border: none;
+  color: white;
+}
+
+.add-stock, .add-button {
+  background: none;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.add-button {
+  margin-left: 1em;
+}
+

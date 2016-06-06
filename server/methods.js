@@ -13,15 +13,21 @@ Meteor.methods({
   'stockData.add'(data, name) {
     let d = StockData.find({companyData: data}).fetch();
     if(d.length <= 0) {
-      StockData.insert({companyData: data, active: true, name: name})
+      StockData.insert({companyData: data, active: true, name: name.toUpperCase()})
     }
   },
 
   'isPresentAndUpToDate'(elem) {
-    let e = StockData.find({name: elem}).fetch();
+    let e = StockData.find({name: elem.toUpperCase()}).fetch();
     if(e.length === 0) {
-      return false
+      return false;
+    } else {
+      return true;
     }
+  },
+
+  'remove'(name) {
+    StockData.remove({_id: name});
   }
 
 });

@@ -15,11 +15,7 @@ export default class App extends React.Component {
           background: "none", border: "none"}}>
             <div id="navbarCollapse" className="collapse navbar-collapse">
               <ul className="nav navbar-nav">
-                <li className="nav-button"><Link to="/" > Home </Link></li>
-                <li className="nav-button"><Link to="/about"> About </Link></li>
-              </ul>
-              <ul className="nav navbar-nav navbar-right">
-                  <li className="nav-account"><AccountsUIWrapper /></li>
+                                <li className="nav-button"><Link to="/about"> About </Link></li>
               </ul>
             </div>
           </nav>
