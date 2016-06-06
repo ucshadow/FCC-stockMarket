@@ -15,7 +15,6 @@ export const renderRoutes = () => (
   <Router history={ browserHistory }>
     <Route path="/" component={ App }>
       <IndexRoute component={ Home } />
-      <Route path="about" component={ About } />
       <Route path="*" component={ NotFound } />
     </Route>
   </Router>

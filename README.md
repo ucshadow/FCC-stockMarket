@@ -1,7 +1,7 @@
-# Simple Meteor React starting template
+# A project by Catalin for freecoecamp.com  -- Chart the Stock Market --
 
  - Meteor
  - React
  - React Router
- - Accounts UI | password | Facebook | Twitter | Github | Google
- - bootstrap
+ - HighCharts
+ - Yahoo query API
